@@ -1,0 +1,56 @@
+## Ageing_Sign_Batch_11
+
+The zip file contains the following:
+
+The *AgeData* folder contains the dataset used while implementing the project.
+
+The *Python File* folder contains the Python files AgeTrain.py and AgeTest.py along with age.json and ageweights.h5 files created after training the model.
+
+The *Colab Notebook* folder contains the .ipynb file and a sample pdf representation of the execution of the code along with the h5 and json files.
+
+Few sample images are also inserted, which were used to test the project.
+
+
+***********************************************************
+#Python File#
+
+1. Unzip the folder on your PC. 
+
+2. Install the following modules:cv2, tensorflow
+
+3. Open the file AgeTest.py and change variable file_name with the path to the testing image.
+
+4. Execute the code with the statement: python AgeTest.py
+
+
+
+************************************************************
+#Colab Notebook#
+
+
+To work with the #Face_detection_collab# file in the #Colab notebook# folder, follow the below steps:
+1. Upload the whole unzipped folder on your google drive.
+
+2. Double-click on the Face_detection_collab.ipynb file to open it in Google Colab.
+
+3. Run the code in each segment by pressing shift+enter or simply click on the 'play' button next to the code.
+
+4. In the second segment of the notebook the code will ask permission to access your google drive to be able to import necessary files from the unzipped folder you just uploaded.
+
+5. Once you run that code, Google Colab will provide you with a link to that drive's access key. Copy it and paste it in the form provided.
+
+6. Run all the imported code segment to import all the necessary package.
+
+7. You can run the code segment one by one from the start to train the model yourself or Just sroll down to the **Load from Saved Model** and load the json files and continue from there.
+
+8. Make sure to change the path as specified.
+
+9. Do run the **Grayscaling function** segment too.
+
+10. Skip the webcam segment and Run the input image segment to get the output.
+
+11. Most of the code segments will run using shift+enter, without changing any part of the code.
+
+12. Run all the #run_this_without_fail commented segment
+
+12. The places where you have to type in the path of the specific file will be paired with a Comment specifying that you need to enter the path in that place.
